@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  background-color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.topo {
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .topo {
+    width: 100%;
+  }
+}
+
+header {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #F3F7FF;
+  height: 50px;
+}
+@media (max-width: 500px) {
+  header {
+    padding: 35px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.bckg {
+  width: 100%;
+  justify-content: start;
+}
+@media (max-width: 900px) {
+  .bckg {
+    width: 100%;
+    height: 20vh;
+  }
+}
+
+.banner {
+  width: 100%;
+  height: 250px;
+}
+@media (max-width: 900px) {
+  .banner {
+    width: 100%;
+    height: 25vh;
+  }
+}
+@media (max-width: 500px) {
+  .banner {
+    height: 800px;
+  }
+}
+
+.texto-principal {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  text-align: start;
+  width: 23%;
+  right: 600px;
+  gap: 10%;
+  margin-left: -80%;
+  margin-top: 4%;
+}
+.texto-principal h2 {
+  width: 600px;
+  font-weight: 300;
+}
+@media (max-width: 500px) {
+  .texto-principal h2 {
+    width: 100vw;
+    font-size: 90%;
+    font-weight: 100;
+  }
+}
+.texto-principal p {
+  width: 23vw;
+}
+@media (max-width: 900px) {
+  .texto-principal p {
+    width: 50vw;
+  }
+}
+@media (max-width: 500px) {
+  .texto-principal p {
+    width: 80vw;
+    font-size: medium;
+    font-weight: 200;
+  }
+}
+.texto-principal img {
+  width: 12vw;
+}
+@media (max-width: 900px) {
+  .texto-principal img {
+    width: 20vw;
+  }
+}
+@media (max-width: 500px) {
+  .texto-principal img {
+    width: 35vw;
+  }
+}
+@media (max-width: 900px) {
+  .texto-principal {
+    display: flex;
+    width: 50vw;
+    font-size: larger;
+    gap: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .texto-principal {
+    display: grid;
+    padding: 0;
+    gap: 10px;
+  }
+}
+
+.texto-secundario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .texto-secundario {
+    width: 200vw;
+    margin: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (max-width: 900px) {
+  .texto-secundario {
+    margin: 100px;
+  }
+}
+.texto-secundario p {
+  width: 33%;
+  font-weight: 400;
+  font-size: large;
+}
+
+.segunda-parte {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  gap: 30px;
+}
+@media (max-width: 900px) {
+  .segunda-parte {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 500px) {
+  .segunda-parte {
+    flex-direction: column;
+    margin: 3px;
+  }
+}
+
+p {
+  width: 32%;
+  font-weight: 400;
+  font-size: large;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 900px) {
+  div {
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 500px) {
+  div {
+    width: 45vw;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.info-tenis {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.conteiner {
+  flex-direction: row;
+  align-items: center;
+  text-align: justify;
+  width: 300px;
+  height: 300px;
+}
+.conteiner h4, .conteiner h5 {
+  margin-top: 20px;
+  font-weight: 700;
+  width: 330px;
+  font-size: 0.8rem;
+}
+@media (max-width: 900px) {
+  .conteiner h4, .conteiner h5 {
+    font-size: 0.5cm;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+}
+.conteiner p {
+  width: 400px;
+  color: #7CA2F4;
+  font-size: 0.3cm;
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  .conteiner p {
+    font-size: 0.5cm;
+  }
+}
+
+.textos {
+  display: grid;
+  flex-direction: column;
+}
+
+.tenis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  background-color: #F3F7FF;
+}
+.tenis img {
+  width: 70%;
+}/*# sourceMappingURL=style.css.map */
