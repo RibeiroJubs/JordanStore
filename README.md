@@ -41,3 +41,5 @@ Explorar novas seções, como promoções ou uma galeria de coleções.
 
 📄 Licença
 Este projeto é de código aberto e está licenciado sob os termos da MIT License.
+
+Visualização do projeto : https://ribeirojubs.github.io/JordanStore/
